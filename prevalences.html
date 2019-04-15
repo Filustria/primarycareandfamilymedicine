@@ -144,10 +144,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html"><i class="fa fa-check"></i>TO DO LIST</a><ul>
+<li class="chapter" data-level="0.1" data-path="to-do-list.html"><a href="to-do-list.html#emr-pendencies"><i class="fa fa-check"></i><b>0.1</b> EMR pendencies</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#emr-data-wrangling"><i class="fa fa-check"></i>EMR data wrangling</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#hospital-admission-data"><i class="fa fa-check"></i>Hospital Admission Data</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#referrals-to-secondary-care-data"><i class="fa fa-check"></i>Referrals to secondary care Data</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#mortality-data"><i class="fa fa-check"></i>Mortality data</a></li>
+<li class="chapter" data-level="0.2" data-path="to-do-list.html"><a href="to-do-list.html#linkage-process"><i class="fa fa-check"></i><b>0.2</b> Linkage process</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#statistics"><i class="fa fa-check"></i>Statistics</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html"><i class="fa fa-check"></i>Prevalences</a><ul>
@@ -330,7 +332,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="prevalence-in-the-general-population" class="section level2 unnumbered">
 <h2>Prevalence in the general population</h2>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># has &lt;- cbind(hasm, hasf[2:3])</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(kableExtra)
+<span class="co"># has &lt;- cbind(hasm, hasf[2:3])</span>
 <span class="kw">kable</span>(prevalencias, <span class="dt">caption =</span> <span class="st">&quot;Table 2: &quot;</span>) <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">add_header_above</span>(<span class="kw">c</span>(<span class="st">&quot; &quot;</span>, <span class="st">&quot;Female (N = 343.433)&quot;</span> =<span class="st"> </span><span class="dv">3</span>, <span class="st">&quot;Male (N = 238.487)&quot;</span> =<span class="st"> </span><span class="dv">3</span>))</code></pre>
@@ -1304,7 +1307,9 @@ AIDS/HIV
 <div id="prevalence-in-the-adult-population" class="section level2 unnumbered">
 <h2>Prevalence in the adult population</h2>
 <p>Here we considered only patient older than 18 years-old. 149.236 patients were withdrawn from the sample.</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">kable</span>(prevalencias_adultos, <span class="dt">caption =</span> <span class="st">&quot;Table 3:&quot;</span>) <span class="op">%&gt;%</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(kableExtra)
+
+<span class="kw">kable</span>(prevalencias_adultos, <span class="dt">caption =</span> <span class="st">&quot;Table 3:&quot;</span>) <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">kable_styling</span>(<span class="dt">bootstrap_options =</span> <span class="kw">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">add_header_above</span>(<span class="kw">c</span>(<span class="st">&quot; &quot;</span>, <span class="st">&quot;Female (N = 268.619)&quot;</span> =<span class="st"> </span><span class="dv">3</span>, <span class="st">&quot;Male (N = 164.065)&quot;</span> =<span class="st"> </span><span class="dv">3</span>))</code></pre>
 <table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">

@@ -144,10 +144,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#references"><i class="fa fa-check"></i>References</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html"><i class="fa fa-check"></i>TO DO LIST</a><ul>
+<li class="chapter" data-level="0.1" data-path="to-do-list.html"><a href="to-do-list.html#emr-pendencies"><i class="fa fa-check"></i><b>0.1</b> EMR pendencies</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#emr-data-wrangling"><i class="fa fa-check"></i>EMR data wrangling</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#hospital-admission-data"><i class="fa fa-check"></i>Hospital Admission Data</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#referrals-to-secondary-care-data"><i class="fa fa-check"></i>Referrals to secondary care Data</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#mortality-data"><i class="fa fa-check"></i>Mortality data</a></li>
+<li class="chapter" data-level="0.2" data-path="to-do-list.html"><a href="to-do-list.html#linkage-process"><i class="fa fa-check"></i><b>0.2</b> Linkage process</a></li>
 <li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#statistics"><i class="fa fa-check"></i>Statistics</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html"><i class="fa fa-check"></i>Prevalences</a><ul>
@@ -247,6 +249,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="to-do-list" class="section level1 unnumbered">
 <h1>TO DO LIST</h1>
+<div id="emr-pendencies" class="section level2">
+<h2><span class="header-section-number">0.1</span> EMR pendencies</h2>
+<ol style="list-style-type: decimal">
+<li>PRIME must send the information about Family Health Team linked to every patient</li>
+<li>VItacare must send the information about drugs with only one code</li>
+</ol>
+</div>
 <div id="emr-data-wrangling" class="section level2 unnumbered">
 <h2>EMR data wrangling</h2>
 <p>The information that follows refer to data from PRIME EMR. The code is already done for most of the tasks, but it has to be queried from the other systems.</p>
@@ -255,7 +264,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Code ICD-10 for every consutlation - <strong>Done</strong></li>
 <li>Code drugs prescribed in every consultation - <strong>Done</strong></li>
 <li>Code blood tests ordered - <strong>Done</strong></li>
-<li><strong>Calculate cardiovascular risk for every patient</strong> - Problems here</li>
+<li><strong>Calculate cardiovascular risk for every patient</strong> - to do</li>
 <li>Calculate Charlson Comorbidity Index for every patient - <strong>Done</strong></li>
 <li>Calculate Elixhauser Comorbidity Index for every patient - <strong>Done</strong></li>
 <li>Code ambulatory-care sensitive conditions - <strong>Done</strong></li>
@@ -283,12 +292,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><strong>Perform Record-Linkage with other DB</strong> - Problems here.</li>
 </ol>
 </div>
+<div id="linkage-process" class="section level2">
+<h2><span class="header-section-number">0.2</span> Linkage process</h2>
+<ol style="list-style-type: decimal">
+<li>Review the previous deterministic process using merge function from base R</li>
+<li>Summarise the deterministic process and resume.</li>
+<li>Follow to probabilistic linkage</li>
+</ol>
+</div>
 <div id="statistics" class="section level2 unnumbered">
 <h2>Statistics</h2>
 <ol style="list-style-type: decimal">
 <li>Data wrangling skills are going fine. No need to worry about</li>
 <li>Pannel data analysis - DataCamp course done</li>
 <li>Survival analysis - first course done</li>
+<li>Multilevel Poisson Regression - look for other independent variables to be considered and for residual analysis</li>
 </ol>
 
 </div>
