@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Survival analysis of patients with multimorbidity treated by Family Physicians compared to those treated by Generalists with no vocational training in Family Medicine | A Cost-effectiveness analysis of the Family Medicine Vocational trainning initiative for capacity building during the Rio de Janeiro Primary Health Care Reform</title>
+  <meta name="description" content="Website created to be a draft for the Ph.D. thesis.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Survival analysis of patients with multimorbidity treated by Family Physicians compared to those treated by Generalists with no vocational training in Family Medicine | A Cost-effectiveness analysis of the Family Medicine Vocational trainning initiative for capacity building during the Rio de Janeiro Primary Health Care Reform" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Website created to be a draft for the Ph.D. thesis." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Survival analysis of patients with multimorbidity treated by Family Physicians compared to those treated by Generalists with no vocational training in Family Medicine | A Cost-effectiveness analysis of the Family Medicine Vocational trainning initiative for capacity building during the Rio de Janeiro Primary Health Care Reform" />
+  
+  <meta name="twitter:description" content="Website created to be a draft for the Ph.D. thesis." />
+  
+
+<meta name="author" content="Adelson Guaraci Jantsch">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html">
+<link rel="next" href="ICSAP.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://filustria.github.io/primarycareandfamilymedicine/">Thesis draft</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#capa"></a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#summary-and-objectives"><i class="fa fa-check"></i>Summary and Objectives</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#methodology"><i class="fa fa-check"></i>Methodology</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#databases"><i class="fa fa-check"></i>Databases</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#population-study-and-exposure"><i class="fa fa-check"></i>Population study and Exposure</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#description-of-the-three-articles"><i class="fa fa-check"></i>Description of the three articles</a><ul>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#ambulatory-care-sensitive-conditions"><i class="fa fa-check"></i>Ambulatory-Care Sensitive Conditions</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#comprehensive-care-for-patients-with-multimorbidity"><i class="fa fa-check"></i>Comprehensive care for patients with multimorbidity</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#survival-of-patients-at-cardiovascular-risk"><i class="fa fa-check"></i>Survival of patients at cardiovascular risk</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#references"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html"><i class="fa fa-check"></i>TO DO LIST</a><ul>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#emr-pendencies"><i class="fa fa-check"></i>EMR pendencies</a></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#emr-data-wrangling"><i class="fa fa-check"></i>EMR data wrangling</a></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#hospital-admission-data"><i class="fa fa-check"></i>Hospital Admission Data</a></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#referrals-to-secondary-care-data"><i class="fa fa-check"></i>Referrals to secondary care Data</a></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#mortality-data"><i class="fa fa-check"></i>Mortality data</a></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#linkage-process"><i class="fa fa-check"></i>Linkage process</a></li>
+<li class="chapter" data-level="" data-path="to-do-list.html"><a href="to-do-list.html#statistics"><i class="fa fa-check"></i>Statistics</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html"><i class="fa fa-check"></i>Prevalences</a><ul>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#population-description"><i class="fa fa-check"></i>Population description</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#prevalence-in-the-general-population"><i class="fa fa-check"></i>Prevalence in the general population</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#prevalence-in-the-adult-population"><i class="fa fa-check"></i>Prevalence in the adult population</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#hypertension-and-related-complications"><i class="fa fa-check"></i>Hypertension and related complications</a><ul>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#hypertension-hbp"><i class="fa fa-check"></i>Hypertension (HBP)</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#complications-related-to-hbp"><i class="fa fa-check"></i>Complications related to HBP</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#diabetes-mellitus"><i class="fa fa-check"></i>Diabetes Mellitus</a><ul>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#diabetes-without-chronic-complication"><i class="fa fa-check"></i>Diabetes without chronic complication</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#diabetes-with-chronic-complications"><i class="fa fa-check"></i>Diabetes with chronic complications</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#dyslipidemia"><i class="fa fa-check"></i>Dyslipidemia</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#obesity"><i class="fa fa-check"></i>Obesity</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#tobbaco-use"><i class="fa fa-check"></i>Tobbaco use</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#myocardial-infarction"><i class="fa fa-check"></i>Myocardial infarction</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#congestive-heart-failure"><i class="fa fa-check"></i>Congestive heart failure</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#renal-failure"><i class="fa fa-check"></i>Renal failure</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#cardiac-arrhythmias"><i class="fa fa-check"></i>Cardiac arrhythmias</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#peripheral-vascular-disorders"><i class="fa fa-check"></i>Peripheral vascular disorders</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#coagulopathy"><i class="fa fa-check"></i>Coagulopathy</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#valvular-disease"><i class="fa fa-check"></i>Valvular disease</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#pulmonary-circulation-disorders"><i class="fa fa-check"></i>Pulmonary circulation disorders</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#blood-loss-anaemia"><i class="fa fa-check"></i>Blood loss anaemia</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#iron-deficiency-anemia"><i class="fa fa-check"></i>Iron deficiency anemia</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#alcohol-abuse"><i class="fa fa-check"></i>Alcohol abuse</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#illicit-drugs-abuse"><i class="fa fa-check"></i>Illicit drugs abuse</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#psychosis"><i class="fa fa-check"></i>Psychosis</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#depression"><i class="fa fa-check"></i>Depression</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#hypothiroidism"><i class="fa fa-check"></i>Hypothiroidism</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#fluid-and-electrolyte-disorders"><i class="fa fa-check"></i>Fluid and electrolyte disorders</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#rheumatoid-arthritiscollagen-vascular-diseases-elixhauser-index"><i class="fa fa-check"></i>Rheumatoid arthritis/collagen vascular diseases (Elixhauser Index)</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#rheumatic-disease-charlson-index"><i class="fa fa-check"></i>Rheumatic disease (Charlson Index)</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#other-neurological-disorders"><i class="fa fa-check"></i>Other neurological disorders</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#cerebrovascular-disease"><i class="fa fa-check"></i>Cerebrovascular disease</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#dementia"><i class="fa fa-check"></i>Dementia</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#paralysis"><i class="fa fa-check"></i>Paralysis</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#chronic-pulmonary-disease"><i class="fa fa-check"></i>Chronic pulmonary disease</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#peptic-ulcer-disease-excluding-bleeding"><i class="fa fa-check"></i>Peptic ulcer disease (excluding bleeding)</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#mild-liver-disease"><i class="fa fa-check"></i>Mild liver disease</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#moderate-or-severe-liver-disease"><i class="fa fa-check"></i>Moderate or severe liver disease</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#liver-cirrhosis"><i class="fa fa-check"></i>Liver cirrhosis</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#weight-loss"><i class="fa fa-check"></i>Weight loss</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#solid-tumour-without-metastasis"><i class="fa fa-check"></i>Solid tumour without metastasis</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#metastatic-cancer"><i class="fa fa-check"></i>Metastatic cancer</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#lymphoma"><i class="fa fa-check"></i>Lymphoma</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#leukemia"><i class="fa fa-check"></i>Leukemia</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#aidshiv"><i class="fa fa-check"></i>AIDS/HIV</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#multimorbidity"><i class="fa fa-check"></i>Multimorbidity</a></li>
+<li class="chapter" data-level="" data-path="prevalences.html"><a href="prevalences.html#references-1"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><i class="fa fa-check"></i>Blood tests ordered in Primary Care in Rio de Janeiro</a><ul>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#hemogram"><i class="fa fa-check"></i>HEMOGRAM</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#creatinine"><i class="fa fa-check"></i>CREATININE</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#urea"><i class="fa fa-check"></i>UREA</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#uric-acid"><i class="fa fa-check"></i>URIC ACID</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#the-cholesterol-combo"><i class="fa fa-check"></i>The Cholesterol Combo</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#glicose-and-a1c-hemoglobin"><i class="fa fa-check"></i>Glicose and A1C Hemoglobin</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#urine-analysis"><i class="fa fa-check"></i>URINE ANALYSIS</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#the-thyroid-combo---tsh-t4-t4-and-free---t4"><i class="fa fa-check"></i>The Thyroid Combo - TSH, T4, T4 and Free - T4</a></li>
+<li class="chapter" data-level="" data-path="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html"><a href="blood-tests-ordered-in-primary-care-in-rio-de-janeiro.html#psa-for-prostate-cancer-screening"><i class="fa fa-check"></i>PSA for Prostate Cancer Screening</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><i class="fa fa-check"></i>Drugs prescribed in Primary Care in Rio de Janeiro</a><ul>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#hmg-coa-reductase-inhibitors"><i class="fa fa-check"></i>HMG-CoA reductase inhibitors</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#amoxicilin"><i class="fa fa-check"></i>Amoxicilin</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#benzodiazepines"><i class="fa fa-check"></i>Benzodiazepines</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#aspirin-100-mg"><i class="fa fa-check"></i>Aspirin 100 mg</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#tricyclics"><i class="fa fa-check"></i>Tricyclics</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#omeprazole"><i class="fa fa-check"></i>Omeprazole</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#azitromicin"><i class="fa fa-check"></i>Azitromicin</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#penicillin"><i class="fa fa-check"></i>Penicillin</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#quinolones"><i class="fa fa-check"></i>Quinolones</a></li>
+<li class="chapter" data-level="" data-path="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html"><a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html#cephalexin"><i class="fa fa-check"></i>Cephalexin</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><i class="fa fa-check"></i>Survival analysis of patients with multimorbidity treated by Family Physicians compared to those treated by Generalists with no vocational training in Family Medicine</a><ul>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#introduction"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#methodology-1"><i class="fa fa-check"></i>Methodology</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#survival-analysis---first-approach"><i class="fa fa-check"></i>Survival analysis - first approach</a><ul>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#first-model---age"><i class="fa fa-check"></i>First model - Age</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#second-model---age-and-sex"><i class="fa fa-check"></i>Second model - Age and sex</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#third-model---age-sex-and-charlson-comorbidity-index"><i class="fa fa-check"></i>Third model - Age, sex and Charlson Comorbidity Index</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#forth-model---age-sex-charlson-comorbidity-index-and-medical-specialty"><i class="fa fa-check"></i>Forth model - Age, sex, Charlson Comorbidity Index and Medical specialty</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#information-bias-or-selection-bias-which-chronic-conditions-primary-care-doctors-are-taking-care-of-in-rio-de-janeiro"><i class="fa fa-check"></i>Information Bias or Selection Bias: Which chronic conditions Primary Care doctors are taking care of in Rio de Janeiro?</a><ul>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#odds-ratio-to-be-diagnosed-with-a-chronic-condition"><i class="fa fa-check"></i>Odds ratio to be diagnosed with a chronic condition</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#adjusted-for-age-and-sex"><i class="fa fa-check"></i>Adjusted for age and sex</a></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#poisson-distribution"><i class="fa fa-check"></i>Poisson distribution</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html"><a href="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine.html#further-steps"><i class="fa fa-check"></i>Further steps</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="ICSAP.html"><a href="ICSAP.html"><i class="fa fa-check"></i>Categorizing Ambulatory-care sensitive conditions</a><ul>
+<li class="chapter" data-level="" data-path="ICSAP.html"><a href="ICSAP.html#vaccine-preventable-conditions"><i class="fa fa-check"></i>Vaccine preventable conditions</a></li>
+<li class="chapter" data-level="" data-path="ICSAP.html"><a href="ICSAP.html#avoidable-conditions"><i class="fa fa-check"></i>Avoidable conditions</a></li>
+<li class="chapter" data-level="" data-path="ICSAP.html"><a href="ICSAP.html#gastroenteritis"><i class="fa fa-check"></i>Gastroenteritis</a></li>
+<li class="chapter" data-level="" data-path="ICSAP.html"><a href="ICSAP.html#anemia"><i class="fa fa-check"></i>Anemia</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="poisson.html"><a href="poisson.html"><i class="fa fa-check"></i>Poisson regression and the risk for having a blood test ordered if the patient is seen by a Generalist or a Familyan Physician</a></li>
+<li class="chapter" data-level="" data-path="references-2.html"><a href="references-2.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://filustria.github.io/primarycareandfamilymedicine/" target="blank">Cover page</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Cost-effectiveness analysis of the Family Medicine Vocational trainning initiative for capacity building during the Rio de Janeiro Primary Health Care Reform</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="survival-analysis-of-patients-with-multimorbidity-treated-by-family-physicians-compared-to-those-treated-by-generalists-with-no-vocational-training-in-family-medicine" class="section level1 unnumbered">
+<h1>Survival analysis of patients with multimorbidity treated by Family Physicians compared to those treated by Generalists with no vocational training in Family Medicine</h1>
+<div id="introduction" class="section level2 unnumbered">
+<h2>Introduction</h2>
+<p>Residency training in Family Medicine is the gold standard for medical vocational training for Primary Care (PC) and it is expected that residents trained in certified residency programs perform better than untrained physicians when providing care for their patients, being more parsimonious in spending available resources, offering ready and easy access to care for their patients and expanding the scope of their practice by managing a wide range of prevalent health conditions <span class="citation">[<a href="#ref-euract">6</a>]</span>.</p>
+<p>By training young doctors for the practice of PC it is expected that they will not only develop technical skills making them ready to easily solve common health problems but also learning and incorporating the principles of Family Medicine <span class="citation">[<a href="#ref-mcwhinney">7</a>]</span>, such as comprehensiveness, continuity of care and patient-centered care <span class="citation">[<a href="#ref-moira">8</a>]</span>, into their practice. As Barbara Starfield’s widely known research <span class="citation">[<a href="#ref-starfield_contribution">9</a>]</span> showed that having a health system strongly funded in the attributes of PC is not only good for the patients, but also for health systems and governments, since it is more efficient by a lower cost. There is a good agreement on how important it is to have a health system with strong PHC, but the way to build it and develop its attributes is still an open field for debate. If the reacently launched Astana Declaration <span class="citation">[<a href="#ref-astana">10</a>]</span> - and its 1978 predecessor Alma Ata Declaration <span class="citation">[<a href="#ref-almaata">11</a>]</span> - clearly stated that primary care is the way to achieve Universal Health Coverage and Equity in Health, none of them mentioned Family Medicine as the most suitable medical spcialty to achieve their aims though.</p>
+<p>Beyond clinical skills to perform prevention, diagnostics, treatment and palliation, Family Physicians are trained to diagnose and treat some conditions beyond the biomedical spectrum, such as treatment adherence, emotional and mental burden, lack of social and family support or poor self-efficacy <span class="citation">[<a href="#ref-sbmfc">12</a>]</span>. Combining all those domains in the practice of primary care - from biomedical knowledge and clinical reasoning to social, relational and communicational skills - is what makes Family Medicine so difficult to be well done and therefor, very hard to be investigated <span class="citation">[<a href="#ref-starfield_threads">13</a>]</span>. This is important for every patient at any level of care, but it is paramount for those patients with Multimorbidity where two or more chronic conditions coexist, leading to all sorts of combinations of symptoms, treatments, outcomes, impairments and doubts about the best way to address each one <span class="citation">[<a href="#ref-abc">14</a>]</span>.</p>
+<p>Treating only the biomedical aspects of the disease by strictly following therapeutic protocols patients with Multimorbidity are at risk of polypharmacy and serious adverse events, while probably will not have their illness and health demands seen and addressed. Vocational training in Family Medicine tries to promote a health care professional capable of dealing not only with commmon and prevalent health conditions (Hypertension, Diabetes, Heart Failure and Dementia) but also with the complexity that arises when several chronic conditions and personal singular expectations, disabilities and individual and social vulnerabilities coexist in the same patient <span class="citation">[<a href="#ref-valderas">15</a>]</span>.</p>
+<p>For the reason stated above Multimorbidity will be the event of interest in this study that aims to answer the question “Do patients treated by trained family physicians live longer than those treated by physicians with no special training?”.</p>
+</div>
+<div id="methodology-1" class="section level2 unnumbered">
+<h2>Methodology</h2>
+<p>In this preliminary study a Survival Analysis was performed comparing Generalists (medical primary care providers with no vocational training in Family Medicine) and Family Physicians (those who have been trained as - or are currently training to become - Family Physicians). The survival of patients with multimorbidity, defined as the presence of two or more chronic conditions in the same patient, was measured by the number of days between the day the patient was diagnosed as having the second chronic condition until the last day he/she was seen at the clinic (censoring) or until the day of death (outcome).</p>
+<p>Multimorbidity was cathegorized as having two or more chronic conditions chosen by the domains listed by the Charlson<span class="citation">[<a href="#ref-charlson1987">3</a>]</span> and Elixhauser<span class="citation">[<a href="#ref-elix1998">4</a>]</span> Comorbidity Indexes, summarising 29 chronic health conditions. Eligible patients were those 18 years of age or older and those who had had at least two consultations at the PHC clinic during the period of January 2013 until December 2018.</p>
+<p>For this analysis we considered only those patients who were seen exclusively by Family Physicians (exposure) or by Generalists (control). Patients seen by both medical cathegories or had only one consultations were excluded from the analysis.</p>
+</div>
+<div id="survival-analysis---first-approach" class="section level2 unnumbered">
+<h2>Survival analysis - first approach</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">load</span>(<span class="st">&quot;D:</span><span class="ch">\\</span><span class="st">extracao</span><span class="ch">\\</span><span class="st">roteiros</span><span class="ch">\\</span><span class="st">sobrevida</span><span class="ch">\\</span><span class="st">amostra.RData&quot;</span>)
+<span class="kw">load</span>(<span class="st">&quot;D:</span><span class="ch">\\</span><span class="st">extracao</span><span class="ch">\\</span><span class="st">roteiros</span><span class="ch">\\</span><span class="st">sobrevida</span><span class="ch">\\</span><span class="st">amostra1.RData&quot;</span>)
+<span class="kw">load</span>(<span class="st">&quot;D:</span><span class="ch">\\</span><span class="st">extracao</span><span class="ch">\\</span><span class="st">roteiros</span><span class="ch">\\</span><span class="st">sobrevida</span><span class="ch">\\</span><span class="st">amostra2.RData&quot;</span>)
+
+amostra &lt;-<span class="st"> </span>amostra <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">filter</span>(FP <span class="op">==</span><span class="st"> </span><span class="dv">1</span> <span class="op">|</span><span class="st"> </span>FP <span class="op">==</span><span class="st"> </span><span class="dv">0</span>)</code></pre></div>
+<div id="first-model---age" class="section level3 unnumbered">
+<h3>First model - Age</h3>
+<p>The first model takes age as the only independent variable in the model and, as it was supose to happen, for every year gained in life there is a 5% increament of the risk of death, i.e. a HR 1.056 (1.052; 1.06).</p>
+<pre><code>## Call:
+## survival::coxph(formula = surv_obj ~ age, data = amostra)
+## 
+##   n= 31111, number of events= 1760 
+##    (412 observations deleted due to missingness)
+## 
+##         coef exp(coef) se(coef)     z Pr(&gt;|z|)    
+## age 0.054523  1.056037 0.002036 26.79   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+##     exp(coef) exp(-coef) lower .95 upper .95
+## age     1.056     0.9469     1.052      1.06
+## 
+## Concordance= 0.669  (se = 0.007 )
+## Rsquare= 0.024   (max possible= 0.664 )
+## Likelihood ratio test= 749.7  on 1 df,   p=&lt;2e-16
+## Wald test            = 717.5  on 1 df,   p=&lt;2e-16
+## Score (logrank) test = 724.3  on 1 df,   p=&lt;2e-16</code></pre>
+</div>
+<div id="second-model---age-and-sex" class="section level3 unnumbered">
+<h3>Second model - Age and sex</h3>
+<p>By adding information aboout Sex in the model the results show a well know pattern, where men tend to have a 60% higher risk for death - HR 1.664 (CI 95% 1.515; 1.828) - when compared to women. The HR for Age remains the same. This result doesn’t add much information to the model, since it is well known that women tend to live longer than men.</p>
+<pre><code>## Call:
+## survival::coxph(formula = surv_obj ~ sex + age, data = amostra)
+## 
+##   n= 31086, number of events= 1753 
+##    (437 observations deleted due to missingness)
+## 
+##          coef exp(coef) se(coef)     z Pr(&gt;|z|)    
+## sexM 0.509422  1.664329 0.047956 10.62   &lt;2e-16 ***
+## age  0.055215  1.056768 0.002076 26.59   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+##      exp(coef) exp(-coef) lower .95 upper .95
+## sexM     1.664     0.6008     1.515     1.828
+## age      1.057     0.9463     1.052     1.061
+## 
+## Concordance= 0.687  (se = 0.007 )
+## Rsquare= 0.027   (max possible= 0.662 )
+## Likelihood ratio test= 843  on 2 df,   p=&lt;2e-16
+## Wald test            = 797.7  on 2 df,   p=&lt;2e-16
+## Score (logrank) test = 807.8  on 2 df,   p=&lt;2e-16</code></pre>
+<pre><code>## Warning: Removed 1 rows containing missing values (geom_errorbar).</code></pre>
+<p><img src="site_da_tese_files/figure-html/unnamed-chunk-37-1.png" width="672" /></p>
+</div>
+<div id="third-model---age-sex-and-charlson-comorbidity-index" class="section level3 unnumbered">
+<h3>Third model - Age, sex and Charlson Comorbidity Index</h3>
+<p>The third model adds information about the morbidity burden for every patient eligible for the analysis. As expected, for 1 point at the Charlson Index there is an increase of 51% in the risk of dying.</p>
+<pre><code>## Call:
+## survival::coxph(formula = surv_obj ~ sex + age + charlson, data = amostra)
+## 
+##   n= 31086, number of events= 1753 
+##    (437 observations deleted due to missingness)
+## 
+##             coef exp(coef) se(coef)      z Pr(&gt;|z|)    
+## sexM     0.44971   1.56786  0.04816  9.338   &lt;2e-16 ***
+## age      0.05654   1.05817  0.00207 27.310   &lt;2e-16 ***
+## charlson 0.41625   1.51626  0.02115 19.685   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+##          exp(coef) exp(-coef) lower .95 upper .95
+## sexM         1.568     0.6378     1.427     1.723
+## age          1.058     0.9450     1.054     1.062
+## charlson     1.516     0.6595     1.455     1.580
+## 
+## Concordance= 0.717  (se = 0.007 )
+## Rsquare= 0.035   (max possible= 0.662 )
+## Likelihood ratio test= 1101  on 3 df,   p=&lt;2e-16
+## Wald test            = 1116  on 3 df,   p=&lt;2e-16
+## Score (logrank) test = 1109  on 3 df,   p=&lt;2e-16</code></pre>
+<pre><code>## Warning: Removed 1 rows containing missing values (geom_errorbar).</code></pre>
+<p><img src="site_da_tese_files/figure-html/unnamed-chunk-38-1.png" width="672" /></p>
+</div>
+<div id="forth-model---age-sex-charlson-comorbidity-index-and-medical-specialty" class="section level3 unnumbered">
+<h3>Forth model - Age, sex, Charlson Comorbidity Index and Medical specialty</h3>
+<p>Finally when the information about the kind of physicians tyhat took care of the patient (Family Physician versus Generalists) the result was that if a patient is seen by a Fammily Physician there is a two times the chance of dying when compared to those patients seen by Generalists (HR 2.082 - 95% Ci 1.865; 2.325). That information contradicts what the theoretical model presented in the introduction, i.e., that Family Physicians would be more capable of providing better care for their patients, mainly for those with Multimorbidity.</p>
+<pre><code>## Call:
+## survival::coxph(formula = surv_obj ~ sex + age + charlson + FP, 
+##     data = amostra)
+## 
+##   n= 31086, number of events= 1753 
+##    (437 observations deleted due to missingness)
+## 
+##              coef exp(coef) se(coef)      z Pr(&gt;|z|)    
+## sexM     0.435744  1.546113 0.048196  9.041   &lt;2e-16 ***
+## age      0.056113  1.057717 0.002064 27.189   &lt;2e-16 ***
+## charlson 0.395633  1.485324 0.021196 18.666   &lt;2e-16 ***
+## FP       0.733429  2.082208 0.056281 13.031   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+##          exp(coef) exp(-coef) lower .95 upper .95
+## sexM         1.546     0.6468     1.407     1.699
+## age          1.058     0.9454     1.053     1.062
+## charlson     1.485     0.6733     1.425     1.548
+## FP           2.082     0.4803     1.865     2.325
+## 
+## Concordance= 0.728  (se = 0.007 )
+## Rsquare= 0.039   (max possible= 0.662 )
+## Likelihood ratio test= 1250  on 4 df,   p=&lt;2e-16
+## Wald test            = 1310  on 4 df,   p=&lt;2e-16
+## Score (logrank) test = 1314  on 4 df,   p=&lt;2e-16</code></pre>
+<pre><code>## Warning: Removed 1 rows containing missing values (geom_errorbar).</code></pre>
+<p><img src="site_da_tese_files/figure-html/unnamed-chunk-39-1.png" width="672" /></p>
+<p>The expected results for the last model would be “no difference” between the two groups. There are two main reasons for that. The first one was that several variables were not included in the model, such as individual, social and clinical differences among participants. The second reason was that it would be very unlikely - presumptious, at least - that 3 or 4 years of contact between patients and Family Physicians would make a difference in terms of longevity. Less blood tests, less drugs prescribed, less referals to secondary care and some hospital admissions avoided would be fairly expected, but regarding to longevity, if any difference would happened to exist between Generalists and Family Physicians, it would be small and probably with no statistical significance. However the results point towards the opposite direction, showing a big difference between the two groups in favor of Generalists. One short answer to that would be that Family Physicians are not treating their patients so well or maybe they are being neglectful and providing poorer quality care by prescribing less medications, requiring fewer blood tests, and refering less to secondary care services. That could be a reasonable answer, but the still we would see a small difference, probably with no statistical significance.</p>
+<p>The question that must be stated here is “why such a big difference between the two groups in favor of Generalists?”. This question must be addressed by exploring three different sources of errors in epidemiological studies: information bias, selection bias and confounding.</p>
+</div>
+</div>
+<div id="information-bias-or-selection-bias-which-chronic-conditions-primary-care-doctors-are-taking-care-of-in-rio-de-janeiro" class="section level2 unnumbered">
+<h2>Information Bias or Selection Bias: Which chronic conditions Primary Care doctors are taking care of in Rio de Janeiro?</h2>
+<p>Differences in the prevalence of Chronic Health Conditions among patients treated by Family Physicians and Generalists in Primary Care in Rio de Janeiro.</p>
+<p>In order to explore the relationship of Primary Care Physicians (Generalists and Family Physicians) with some chronic conditions studied here, some logistic regression models were run, having the presence or absence of each condition as dependent variable and being a Family Physician or a Generalist as the main explanatory variable. This variable is a continuous linear variable ranging from 0 (every consultation with Generalist) to 1 (every consultation with Fammily Physicians). Intermediate values represent the proportion of consultations with FP, i.e. a patient with “0.83” means that 83% of the consultations were with FP. This happens due to the turnover of doctors at the PC clinics in Rio. In the sample studied here we have some Family Health Teams that started with Generalists in 2013 and before 2018 a Family Physician occupied the position.</p>
+<p>The idea here is to see if by being treated by a Family Physician a patient has a higher or lower chance of being diagnosed with each of the 29 chronic conditions of interest.</p>
+<div id="odds-ratio-to-be-diagnosed-with-a-chronic-condition" class="section level3 unnumbered">
+<h3>Odds ratio to be diagnosed with a chronic condition</h3>
+<p>In <code>table 1</code> we can see the odds for a patient to be diagnosed with a specific chronic condition when treated by a Family Physician compared to patients treated by Generalists. Generalists are the reference and every odds ratio represent the increment or decrement for a patient to be diagnosed with that specific condition.</p>
+<table class="table table-striped table-hover" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-40">Table 42: </span>Table 1: Odds ratio for a patient to be diagnosed with a specific chronic condition when treated by a Family Physician compared to patients treated by Generalists (odds = 1) in Rio de Janeiro
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Diseases
+</th>
+<th style="text-align:left;">
+OR
+</th>
+<th style="text-align:left;">
+CI
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Hypertension
+</td>
+<td style="text-align:left;">
+0.84
+</td>
+<td style="text-align:left;">
+0.83 - 0.86
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Complications related to Hypertension
+</td>
+<td style="text-align:left;">
+0.97
+</td>
+<td style="text-align:left;">
+0.88 - 1.06
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dyslipidemia
+</td>
+<td style="text-align:left;">
+0.39
+</td>
+<td style="text-align:left;">
+0.36 - 0.42
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes without chronic complication
+</td>
+<td style="text-align:left;">
+0.89
+</td>
+<td style="text-align:left;">
+0.86 - 0.91
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes with chronic complication
+</td>
+<td style="text-align:left;">
+0.95
+</td>
+<td style="text-align:left;">
+0.86 - 1.05
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peptic ulcer disease, excluding bleeding
+</td>
+<td style="text-align:left;">
+1.21
+</td>
+<td style="text-align:left;">
+0.9 - 1.61
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Anemia
+</td>
+<td style="text-align:left;">
+1.05
+</td>
+<td style="text-align:left;">
+0.94 - 1.18
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Alcohol abuse
+</td>
+<td style="text-align:left;">
+2.49
+</td>
+<td style="text-align:left;">
+2.22 - 2.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illicit drugs abuse
+</td>
+<td style="text-align:left;">
+2.8
+</td>
+<td style="text-align:left;">
+2.45 - 3.19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Psychosis
+</td>
+<td style="text-align:left;">
+1.47
+</td>
+<td style="text-align:left;">
+1.34 - 1.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Depression
+</td>
+<td style="text-align:left;">
+1.39
+</td>
+<td style="text-align:left;">
+1.31 - 1.48
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Hypothiroidism
+</td>
+<td style="text-align:left;">
+1.25
+</td>
+<td style="text-align:left;">
+1.16 - 1.35
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cardiac arrhythmias
+</td>
+<td style="text-align:left;">
+1.61
+</td>
+<td style="text-align:left;">
+1.45 - 1.77
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coagulopathy
+</td>
+<td style="text-align:left;">
+1.23
+</td>
+<td style="text-align:left;">
+0.92 - 1.63
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rheumatoid arthritis/collagen vascular diseases
+</td>
+<td style="text-align:left;">
+1.42
+</td>
+<td style="text-align:left;">
+1.26 - 1.59
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Other neurological disorders
+</td>
+<td style="text-align:left;">
+1.22
+</td>
+<td style="text-align:left;">
+1.12 - 1.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ischemic Heart Disease
+</td>
+<td style="text-align:left;">
+1.97
+</td>
+<td style="text-align:left;">
+1.73 - 2.25
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Congestive Heart Failure
+</td>
+<td style="text-align:left;">
+1.97
+</td>
+<td style="text-align:left;">
+1.82 - 2.14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peripheral vascular disorders
+</td>
+<td style="text-align:left;">
+2.87
+</td>
+<td style="text-align:left;">
+2.43 - 3.39
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cerebrovascular disease
+</td>
+<td style="text-align:left;">
+1.63
+</td>
+<td style="text-align:left;">
+1.5 - 1.76
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dementia
+</td>
+<td style="text-align:left;">
+1.66
+</td>
+<td style="text-align:left;">
+1.49 - 1.85
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Chronic pulmonary disease
+</td>
+<td style="text-align:left;">
+1.41
+</td>
+<td style="text-align:left;">
+1.32 - 1.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Paralysis
+</td>
+<td style="text-align:left;">
+1.21
+</td>
+<td style="text-align:left;">
+0.95 - 1.54
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Renal failure
+</td>
+<td style="text-align:left;">
+2.17
+</td>
+<td style="text-align:left;">
+1.94 - 2.42
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lymphoma, Leukemia and Solid tumour without metastasis
+</td>
+<td style="text-align:left;">
+1.69
+</td>
+<td style="text-align:left;">
+1.56 - 1.83
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mild liver disease
+</td>
+<td style="text-align:left;">
+1.42
+</td>
+<td style="text-align:left;">
+1.23 - 1.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Severe liver disease
+</td>
+<td style="text-align:left;">
+1.64
+</td>
+<td style="text-align:left;">
+1.01 - 2.61
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Metastatic cancer
+</td>
+<td style="text-align:left;">
+1.69
+</td>
+<td style="text-align:left;">
+1.56 - 1.83
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AIDS/HIV
+</td>
+<td style="text-align:left;">
+1.59
+</td>
+<td style="text-align:left;">
+1.44 - 1.76
+</td>
+</tr>
+</tbody>
+</table>
+<p>The differences are very significant and point towards an interesting pattern: Diabetes, dyslipidemia or hypertension - the most prevalent chronic conditions in Rio de Janeiro - are more likely to be diagnosed by a Generalist, while not so common and somewhat more complex chronic conditions, i.e. Alcohol abuse, Psychosis, Congestive Heart Failure, Dementia and Renal failure, are way more likely to be diagnosed by Family Physicians.</p>
+<p>After finding those variations among Family Physicians and Generalists in making the diagnosis of several chronic conditions, age and sex were introduced in the models as the main risk factors for most of the conditions studied here.</p>
+</div>
+<div id="adjusted-for-age-and-sex" class="section level3 unnumbered">
+<h3>Adjusted for age and sex</h3>
+<p>In <code>table 2</code> we can see that the inclusion of those variables increase the effect for some conditions (Ischemic Heart Disease, Congestive Heart Failure and Peripheral vascular disorders) but derceased for others (AIDS/HIV and Illicit drugs abuse).</p>
+<table class="table table-striped table-hover" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-41">Table 43: </span>Table 2: Adjusted for age and sex odds ratio for a patient to be diagnosed with a specific chronic condition when treated by a Family Physician compared to patients treated by Generalists (odds = 1) in Rio de Janeiro
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Diseases
+</th>
+<th style="text-align:left;">
+OR
+</th>
+<th style="text-align:left;">
+CI
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Hypertension
+</td>
+<td style="text-align:left;">
+0.85
+</td>
+<td style="text-align:left;">
+0.83 - 0.87
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Complications related to Hypertension
+</td>
+<td style="text-align:left;">
+0.99
+</td>
+<td style="text-align:left;">
+0.9 - 1.09
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dyslipidemia
+</td>
+<td style="text-align:left;">
+0.39
+</td>
+<td style="text-align:left;">
+0.35 - 0.42
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes without chronic complication
+</td>
+<td style="text-align:left;">
+1.22
+</td>
+<td style="text-align:left;">
+0.9 - 1.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes with chronic complication
+</td>
+<td style="text-align:left;">
+0.9
+</td>
+<td style="text-align:left;">
+0.88 - 0.93
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peptic ulcer disease, excluding bleeding
+</td>
+<td style="text-align:left;">
+0.97
+</td>
+<td style="text-align:left;">
+0.87 - 1.08
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Anemia
+</td>
+<td style="text-align:left;">
+1.09
+</td>
+<td style="text-align:left;">
+0.97 - 1.21
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Alcohol abuse
+</td>
+<td style="text-align:left;">
+2.42
+</td>
+<td style="text-align:left;">
+2.15 - 2.71
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illicit drugs abuse
+</td>
+<td style="text-align:left;">
+2.61
+</td>
+<td style="text-align:left;">
+2.29 - 2.96
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Psychosis
+</td>
+<td style="text-align:left;">
+1.46
+</td>
+<td style="text-align:left;">
+1.33 - 1.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Depression
+</td>
+<td style="text-align:left;">
+1.44
+</td>
+<td style="text-align:left;">
+1.36 - 1.54
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Hypothiroidism
+</td>
+<td style="text-align:left;">
+1.32
+</td>
+<td style="text-align:left;">
+1.23 - 1.43
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cardiac arrhythmias
+</td>
+<td style="text-align:left;">
+1.66
+</td>
+<td style="text-align:left;">
+1.5 - 1.83
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coagulopathy
+</td>
+<td style="text-align:left;">
+1.26
+</td>
+<td style="text-align:left;">
+0.94 - 1.66
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rheumatoid arthritis/collagen vascular diseases
+</td>
+<td style="text-align:left;">
+1.48
+</td>
+<td style="text-align:left;">
+1.31 - 1.67
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Other neurological disorders
+</td>
+<td style="text-align:left;">
+1.22
+</td>
+<td style="text-align:left;">
+1.11 - 1.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ischemic Heart Disease
+</td>
+<td style="text-align:left;">
+2.03
+</td>
+<td style="text-align:left;">
+1.77 - 2.31
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Congestive Heart Failure
+</td>
+<td style="text-align:left;">
+2.07
+</td>
+<td style="text-align:left;">
+1.91 - 2.25
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peripheral vascular disorders
+</td>
+<td style="text-align:left;">
+3.02
+</td>
+<td style="text-align:left;">
+2.55 - 3.58
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cerebrovascular disease
+</td>
+<td style="text-align:left;">
+1.7
+</td>
+<td style="text-align:left;">
+1.56 - 1.84
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dementia
+</td>
+<td style="text-align:left;">
+1.74
+</td>
+<td style="text-align:left;">
+1.56 - 1.95
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Chronic pulmonary disease
+</td>
+<td style="text-align:left;">
+1.44
+</td>
+<td style="text-align:left;">
+1.35 - 1.54
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Paralysis
+</td>
+<td style="text-align:left;">
+1.21
+</td>
+<td style="text-align:left;">
+0.94 - 1.53
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Renal failure
+</td>
+<td style="text-align:left;">
+2.26
+</td>
+<td style="text-align:left;">
+2.01 - 2.53
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lymphoma, Leukemia and Solid tumour without metastasis
+</td>
+<td style="text-align:left;">
+1.76
+</td>
+<td style="text-align:left;">
+1.62 - 1.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mild liver disease
+</td>
+<td style="text-align:left;">
+1.44
+</td>
+<td style="text-align:left;">
+1.25 - 1.65
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Severe liver disease
+</td>
+<td style="text-align:left;">
+1.63
+</td>
+<td style="text-align:left;">
+1 - 2.61
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Metastatic cancer
+</td>
+<td style="text-align:left;">
+1.76
+</td>
+<td style="text-align:left;">
+1.62 - 1.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AIDS/HIV
+</td>
+<td style="text-align:left;">
+1.51
+</td>
+<td style="text-align:left;">
+1.37 - 1.66
+</td>
+</tr>
+</tbody>
+</table>
+<p>But still we see the same pattern in the likelihood of been diagnosed for a chronic condition - Generalists are more likely to diagnose those chronic conditions that are very prevalent, which have treaments based on protocols and which conform to federal policies for screening, diagnosis, treatment and survailance. Family Physicians, in the other hand, tend to diagnose more unprevalent and complex conditions showing a more comprehensive approach in terms of diagnosis.</p>
+</div>
+<div id="poisson-distribution" class="section level3 unnumbered">
+<h3>Poisson distribution</h3>
+<table class="table table-striped table-hover" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:unnamed-chunk-42">Table 44: </span>Table 3: Adjusted for age and sex odds ratio for a patient to be diagnosed with a specific chronic condition when treated by a Family Physician compared to patients treated by Generalists (odds = 1) in Rio de Janeiro - Poisson distribution
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Diseases
+</th>
+<th style="text-align:left;">
+OR
+</th>
+<th style="text-align:left;">
+CI
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Hypertension
+</td>
+<td style="text-align:left;">
+0.91
+</td>
+<td style="text-align:left;">
+0.89 - 0.92
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Complications related to Hypertension
+</td>
+<td style="text-align:left;">
+0.99
+</td>
+<td style="text-align:left;">
+0.9 - 1.09
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dyslipidemia
+</td>
+<td style="text-align:left;">
+0.39
+</td>
+<td style="text-align:left;">
+0.36 - 0.43
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes without chronic complication
+</td>
+<td style="text-align:left;">
+0.92
+</td>
+<td style="text-align:left;">
+0.89 - 0.94
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Diabetes with chronic complication
+</td>
+<td style="text-align:left;">
+0.97
+</td>
+<td style="text-align:left;">
+0.88 - 1.08
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peptic ulcer disease, excluding bleeding
+</td>
+<td style="text-align:left;">
+1.22
+</td>
+<td style="text-align:left;">
+0.9 - 1.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Anemia
+</td>
+<td style="text-align:left;">
+1.09
+</td>
+<td style="text-align:left;">
+0.97 - 1.21
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Alcohol abuse
+</td>
+<td style="text-align:left;">
+2.4
+</td>
+<td style="text-align:left;">
+2.14 - 2.69
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illicit drugs abuse
+</td>
+<td style="text-align:left;">
+2.59
+</td>
+<td style="text-align:left;">
+2.28 - 2.95
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Psychosis
+</td>
+<td style="text-align:left;">
+1.46
+</td>
+<td style="text-align:left;">
+1.33 - 1.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Depression
+</td>
+<td style="text-align:left;">
+1.43
+</td>
+<td style="text-align:left;">
+1.35 - 1.52
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Hypothiroidism
+</td>
+<td style="text-align:left;">
+1.32
+</td>
+<td style="text-align:left;">
+1.22 - 1.42
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cardiac arrhythmias
+</td>
+<td style="text-align:left;">
+1.65
+</td>
+<td style="text-align:left;">
+1.49 - 1.82
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Coagulopathy
+</td>
+<td style="text-align:left;">
+1.25
+</td>
+<td style="text-align:left;">
+0.94 - 1.66
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rheumatoid arthritis/collagen vascular diseases
+</td>
+<td style="text-align:left;">
+1.48
+</td>
+<td style="text-align:left;">
+1.31 - 1.67
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Other neurological disorders
+</td>
+<td style="text-align:left;">
+1.21
+</td>
+<td style="text-align:left;">
+1.11 - 1.32
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ischemic Heart Disease
+</td>
+<td style="text-align:left;">
+2.01
+</td>
+<td style="text-align:left;">
+1.76 - 2.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Congestive Heart Failure
+</td>
+<td style="text-align:left;">
+2.04
+</td>
+<td style="text-align:left;">
+1.88 - 2.21
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Peripheral vascular disorders
+</td>
+<td style="text-align:left;">
+3
+</td>
+<td style="text-align:left;">
+2.53 - 3.55
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cerebrovascular disease
+</td>
+<td style="text-align:left;">
+1.67
+</td>
+<td style="text-align:left;">
+1.55 - 1.81
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dementia
+</td>
+<td style="text-align:left;">
+1.69
+</td>
+<td style="text-align:left;">
+1.51 - 1.89
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Chronic pulmonary disease
+</td>
+<td style="text-align:left;">
+1.43
+</td>
+<td style="text-align:left;">
+1.34 - 1.53
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Paralysis
+</td>
+<td style="text-align:left;">
+1.21
+</td>
+<td style="text-align:left;">
+0.94 - 1.53
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Renal failure
+</td>
+<td style="text-align:left;">
+2.24
+</td>
+<td style="text-align:left;">
+1.99 - 2.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lymphoma, Leukemia and Solid tumour without metastasis
+</td>
+<td style="text-align:left;">
+1.74
+</td>
+<td style="text-align:left;">
+1.61 - 1.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mild liver disease
+</td>
+<td style="text-align:left;">
+1.44
+</td>
+<td style="text-align:left;">
+1.25 - 1.65
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Severe liver disease
+</td>
+<td style="text-align:left;">
+1.63
+</td>
+<td style="text-align:left;">
+1 - 2.61
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Metastatic cancer
+</td>
+<td style="text-align:left;">
+1.74
+</td>
+<td style="text-align:left;">
+1.61 - 1.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AIDS/HIV
+</td>
+<td style="text-align:left;">
+1.5
+</td>
+<td style="text-align:left;">
+1.36 - 1.65
+</td>
+</tr>
+</tbody>
+</table>
+<p>Using the Poisson distribution the models get better adjusted. In <code>table 3</code> we can still see the same differences though. Common and simple chronic conditions are more likely to be diagnosed by Generalists, while uncommon and complex chronic conditions are more likely to be diagnosed by trained Family Physicians.</p>
+<p>This is an important aspect to be unveiled in the search for evidences of good practice in PC, given that physicians should comprehensively address all health problems that may arise and not only those determined by public policies such as diabetes, dyslipidemia or hypertension.</p>
+<p>The information highlighted here showing different patterns of diagnosis between Generalists and Family Physicians make a good hint that both Selection and Information bias are responsible for the extreme differences seen at the survival analysis. If the physician doesn’t see the problem, he/she won’t be able to make the diagnosis and, therefore, fulfill the respective ICD code at the patient’s EMR. Another posibility is that if the doctor see the problem and fill out the code in the EMR, he/she can refer the patient to secondary care, saying that, from now on, the patient will be followed by the specialist. In both situations those patients were not included in this cohort, since the inclusion criteria was “having at least two consultations in the primay care clinic”. In this case we would have both information bias, i.e. doctor doens’t see the problem and is unable to make the diagnosis, and selection bias, i.e. if the diagnosis is made, the patient is refered to secondary care and is no longer followed at the PC setting.</p>
+<p>The same situation is discussed in a research about avoidable hospital admissions regarding ambulatory-care sensitive conditions in Porto Alegre, Brazil, where having higher scores at the PCATool didn’t make much difference in the survival to the first hospital admission <span class="citation">[<a href="#ref-goncalves">16</a>]</span>.</p>
+<p>If the Family Physician is dealing with more complex patients, not ony low risk patients with high blood pressure, dyslypidemia and diabetes, their patients are more likely to die.</p>
+</div>
+</div>
+<div id="further-steps" class="section level2 unnumbered">
+<h2>Further steps</h2>
+<ol style="list-style-type: decimal">
+<li>Finish the linkage between EMRs and referals DB and then find the patients that were only seen once at the clinic.</li>
+<li>Finish the linkage between EMRs and hospital admissions DB and then perform a survival analysis having time to the first hospital admissions as main outcome.</li>
+</ol>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-euract">
+<p>6 Heyrman J. EURACT Educational Agenda. 2005.<a href="https://euract.woncaeurope.org/sites/euractdev/files/documents/publications/official-documents/euract-educationalagenda.pdf" class="uri">https://euract.woncaeurope.org/sites/euractdev/files/documents/publications/official-documents/euract-educationalagenda.pdf</a></p>
+</div>
+<div id="ref-mcwhinney">
+<p>7 Freeman T. <em>McWhinney’s Textbook of Family Medicine</em>. Forth edition. Oxford University Press 2016. </p>
+</div>
+<div id="ref-moira">
+<p>8 Stewart M, Brown JB, Weston W <em>et al.</em> <em>Patient-centered Medicine: Transforming The Clinical Method: Transforming The Clinical Method (Patient-Centered Care Series)</em>. Third edition. CRC Press 2013. </p>
+</div>
+<div id="ref-starfield_contribution">
+<p>9 Starfield B, Shi L, Macinko J. Contribution of Primary Care to Health Systems and Health. <em>The Milbank Quarterly</em> 2005;<strong>83</strong>. doi:<a href="https://doi.org/10.1111/j.1468-0009.2005.00409.x">10.1111/j.1468-0009.2005.00409.x</a></p>
+</div>
+<div id="ref-astana">
+<p>10, <em>et al.</em> Declaration of Astana. Global Conference on Primary Health Care. 2018.<a href="https://www.who.int/docs/default-source/primary-health/declaration/gcphc-declaration.pdf" class="uri">https://www.who.int/docs/default-source/primary-health/declaration/gcphc-declaration.pdf</a></p>
+</div>
+<div id="ref-almaata">
+<p>11 International Conference on Primary Health Care W. Declaration of Alma-Ata. International Conference on Primary Health Care. 1978.<a href="https://www.who.int/publications/almaata_declaration_en.pdf" class="uri">https://www.who.int/publications/almaata_declaration_en.pdf</a></p>
+</div>
+<div id="ref-sbmfc">
+<p>12, <em>et al.</em> Currículo Baseado Em Competências Para Medicina de Família e Comunidade.;66.<a href="https://www.sbmfc.org.br/wp-content/uploads/media/Curriculo%20Baseado%20em%20Competencias(1).pdf">https://www.sbmfc.org.br/wp-content/uploads/media/Curriculo%20Baseado%20em%20Competencias(1).pdf</a></p>
+</div>
+<div id="ref-starfield_threads">
+<p>13 Starfield B. Threads and yarns: Weaving the tapestry of comorbidity. <em>Annals of Family Medicine</em> 2006;<strong>4</strong>. doi:<a href="https://doi.org/10.1370/afm.524">10.1370/afm.524</a></p>
+</div>
+<div id="ref-abc">
+<p>14 Mercer SW, Salisbury C, Fortin M. ABC of Multimorbidity. 2014.<a href="https://www.wiley.com/en-us/ABC+of+Multimorbidity-p-9781118383889" class="uri">https://www.wiley.com/en-us/ABC+of+Multimorbidity-p-9781118383889</a></p>
+</div>
+<div id="ref-valderas">
+<p>15 Valderas JM, Starfield B, Sibbald B <em>et al.</em> Defining Comorbidity: Implications for Understanding Health and Health Services. <em>Annals of Family Medicine</em> 2009;<strong>7</strong>. doi:<a href="https://doi.org/10.1370/afm.983">10.1370/afm.983</a></p>
+</div>
+<div id="ref-charlson1987">
+<p>3 Charlson ME, Pompei P, Ales KL <em>et al.</em> A New Method of Classifying Prognostic Comorbidity in Longitudinal Studies: Development and Validation. <em>Journal of Chronic Diseases</em> 1987;<strong>40</strong>:373–83. doi:<a href="https://doi.org/10.1016/0021-9681(87)90171-8">10.1016/0021-9681(87)90171-8</a></p>
+</div>
+<div id="ref-elix1998">
+<p>4 Elixhauser A, Steiner C, Harris R <em>et al.</em> Comorbidity Measures for Use with Administrative Data. <em>Medical Care</em> 1998;<strong>36</strong>:8–27. doi:<a href="https://doi.org/10.1097/00005650-199801000-00004">10.1097/00005650-199801000-00004</a></p>
+</div>
+<div id="ref-goncalves">
+<p>16 Gonçalves MR, Hauser L, Prestes IV <em>et al.</em> Primary health care quality and hospitalizations for ambulatory care sensitive conditions in the public health system in Porto Alegre, Brazil. <em>Family Practice</em> 2016;<strong>33</strong>:238–42. doi:<a href="https://doi.org/10.1093/fampra/cmv051">10.1093/fampra/cmv051</a></p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="drugs-prescribed-in-primary-care-in-rio-de-janeiro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ICSAP.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["site_da_tese.pdf", "site_da_tese.epub"],
+"toc": {
+"collapse": "section"
+},
+"always_allow_html": true
+});
+});
+</script>
+
+</body>
+
+</html>
